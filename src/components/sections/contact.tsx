@@ -83,7 +83,7 @@ export default function ContactSection() {
                     <div>
                         <h3 className="text-xl font-semibold font-headline">WhatsApp</h3>
                         <p className="text-muted-foreground">Envíanos un mensaje para una respuesta rápida.</p>
-                        <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline">Iniciar chat</a>
+                        <a href="https://wa.me/573012434775" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline">Iniciar chat</a>
                     </div>
                 </div>
                 <div className="flex gap-4 items-start">

@@ -6,7 +6,6 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
 import { Logo } from '@/components/logo';
-import { Twitter, Instagram, Facebook } from 'lucide-react';
 
 export default function Footer() {
   const { toast } = useToast();
@@ -40,17 +39,6 @@ export default function Footer() {
             <span className="font-headline text-lg font-bold">Multy Soluciones Moica</span>
           </Link>
           <p className="text-sm text-muted-foreground">Transformando tu hogar, un espacio a la vez.</p>
-          <div className="flex gap-2">
-            <Button variant="ghost" size="icon" asChild>
-              <Link href="#"><Twitter className="w-5 h-5" /></Link>
-            </Button>
-            <Button variant="ghost" size="icon" asChild>
-              <Link href="#"><Instagram className="w-5 h-5" /></Link>
-            </Button>
-            <Button variant="ghost" size="icon" asChild>
-              <Link href="#"><Facebook className="w-5 h-5" /></Link>
-            </Button>
-          </div>
         </div>
 
         <div className="flex flex-col gap-3">
