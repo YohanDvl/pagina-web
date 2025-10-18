@@ -1,5 +1,21 @@
-# Firebase Studio
+# Multy Soluciones Moica
 
-This is a NextJS starter in Firebase Studio.
+Este es un proyecto de Next.js creado con Firebase Studio.
 
-To get started, take a look at src/app/page.tsx.
+## Para Empezar
+
+Primero, instala las dependencias:
+
+```bash
+npm install
+```
+
+Luego, ejecuta el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+Abre [http://localhost:9002](http://localhost:9002) en tu navegador para ver el resultado.
+
+Puedes empezar a editar la página modificando `src/app/page.tsx`. La página se actualiza automáticamente a medida que guardas el archivo.
