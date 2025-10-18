@@ -93,7 +93,7 @@ export default function ContactSection() {
                     <div>
                         <h3 className="text-xl font-semibold font-headline">Email</h3>
                         <p className="text-muted-foreground">Envíanos tus preguntas a nuestra dirección de correo.</p>
-                        <a href="mailto:hola@multysoluciones.com" className="text-primary font-medium hover:underline">hola@multysoluciones.com</a>
+                        <a href="mailto:multysolucionesmoica@gmail.com" className="text-primary font-medium hover:underline">multysolucionesmoica@gmail.com</a>
                     </div>
                 </div>
                 <div className="flex gap-4 items-start">
@@ -103,7 +103,7 @@ export default function ContactSection() {
                     <div>
                         <h3 className="text-xl font-semibold font-headline">Teléfono</h3>
                         <p className="text-muted-foreground">Llámanos para una consulta directa.</p>
-                        <a href="tel:+123456789" className="text-primary font-medium hover:underline">+1 (234) 567-89</a>
+                        <a href="tel:+573012434775" className="text-primary font-medium hover:underline">+57 3012434775</a>
                     </div>
                 </div>
                 <div className="flex gap-4 items-start">
@@ -112,7 +112,7 @@ export default function ContactSection() {
                     </div>
                     <div>
                         <h3 className="text-xl font-semibold font-headline">Oficina</h3>
-                        <p className="text-muted-foreground">Av. Siempreviva 123, Springfield</p>
+                        <p className="text-muted-foreground">Oficina virtual</p>
                     </div>
                 </div>
             </div>
