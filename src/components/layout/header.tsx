@@ -7,9 +7,9 @@ import { Menu, Paintbrush, ImageIcon, MessageSquare } from 'lucide-react';
 import { Logo } from '@/components/logo';
 
 const navLinks = [
-  { href: '#servicios', label: 'Servicios', icon: Paintbrush },
-  { href: '#galeria', label: 'Galería', icon: ImageIcon },
-  { href: '#testimonios', label: 'Testimonios', icon: MessageSquare },
+  { href: '/servicios', label: 'Servicios', icon: Paintbrush },
+  { href: '/#galeria', label: 'Galería', icon: ImageIcon },
+  { href: '/servicios#testimonios', label: 'Testimonios', icon: MessageSquare },
 ];
 
 export default function Header() {
@@ -29,7 +29,7 @@ export default function Header() {
         </nav>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <Button asChild>
-            <Link href="#contacto">Agenda una Consulta</Link>
+            <Link href="/#contacto">Agenda una Consulta</Link>
           </Button>
           <div className="md:hidden">
             <Sheet>

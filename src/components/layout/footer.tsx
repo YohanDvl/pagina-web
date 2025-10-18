@@ -55,10 +55,10 @@ export default function Footer() {
 
         <div className="flex flex-col gap-3">
           <h4 className="font-headline font-semibold">Navegación</h4>
-          <Link href="#servicios" className="text-sm text-muted-foreground hover:text-foreground">Servicios</Link>
-          <Link href="#galeria" className="text-sm text-muted-foreground hover:text-foreground">Galería</Link>
-          <Link href="#testimonios" className="text-sm text-muted-foreground hover:text-foreground">Testimonios</Link>
-          <Link href="#contacto" className="text-sm text-muted-foreground hover:text-foreground">Contacto</Link>
+          <Link href="/servicios" className="text-sm text-muted-foreground hover:text-foreground">Servicios</Link>
+          <Link href="/#galeria" className="text-sm text-muted-foreground hover:text-foreground">Galería</Link>
+          <Link href="/servicios#testimonios" className="text-sm text-muted-foreground hover:text-foreground">Testimonios</Link>
+          <Link href="/#contacto" className="text-sm text-muted-foreground hover:text-foreground">Contacto</Link>
         </div>
 
         <div className="flex flex-col gap-3">
