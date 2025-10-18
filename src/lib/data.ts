@@ -1,4 +1,4 @@
-import { Draft, Home, Brush } from 'lucide-react';
+import { DraftingCompass, Home, Brush } from 'lucide-react';
 
 export const placeholderImages = [
   {
@@ -97,7 +97,7 @@ export const packages = [
   {
     id: 1,
     title: 'Asesoría de Diseño',
-    icon: Draft,
+    icon: DraftingCompass,
     description: 'Ideal para quienes necesitan una guía experta para definir el estilo y la distribución de sus espacios.',
     features: [
       'Análisis de espacio y necesidades',
