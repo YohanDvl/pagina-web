@@ -1,3 +1,94 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A beautifully remodeled modern living room.",
+      "imageUrl": "https://images.unsplash.com/photo-1638885930125-85350348d266?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb2Rlcm4lMjBsaXZpbmclMjByb29tfGVufDB8fHx8MTc2MDc1MTY2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern living room"
+    },
+    {
+      "id": "gallery1-before",
+      "description": "An old, dated kitchen before remodeling.",
+      "imageUrl": "https://images.unsplash.com/photo-1733431769311-f33ee6f83d15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxvbGQlMjBraXRjaGVufGVufDB8fHx8MTc2MDc0MjQxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "old kitchen"
+    },
+    {
+      "id": "gallery1-after",
+      "description": "A modern, bright kitchen after remodeling.",
+      "imageUrl": "https://images.unsplash.com/photo-1560185127-1902ccdc5094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtb2Rlcm4lMjBraXRjaGVufGVufDB8fHx8MTc2MDczMTg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern kitchen"
+    },
+    {
+      "id": "gallery2-before",
+      "description": "A cramped bathroom before renovation.",
+      "imageUrl": "https://images.unsplash.com/photo-1561525072-37bd60027546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvbGQlMjBiYXRocm9vbXxlbnwwfHx8fDE3NjA3ODc1MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "old bathroom"
+    },
+    {
+      "id": "gallery2-after",
+      "description": "A spacious, elegant bathroom after renovation.",
+      "imageUrl": "https://images.unsplash.com/photo-1758548157466-7c454382035a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwYmF0aHJvb218ZW58MHx8fHwxNzYwNzg3NTM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "elegant bathroom"
+    },
+    {
+      "id": "gallery3-before",
+      "description": "An unfinished basement space.",
+      "imageUrl": "https://images.unsplash.com/photo-1706452681950-8000ad4b343e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx1bmZpbmlzaGVkJTIwYmFzZW1lbnR8ZW58MHx8fHwxNzYwNzg3NTM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "unfinished basement"
+    },
+    {
+      "id": "gallery3-after",
+      "description": "A cozy family room created in the remodeled basement.",
+      "imageUrl": "https://images.unsplash.com/photo-1645241910657-15bc4c16e0f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3p5JTIwZmFtaWx5JTIwcm9vbXxlbnwwfHx8fDE3NjA3ODc1MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cozy family room"
+    },
+    {
+      "id": "gallery4-before",
+      "description": "An old backyard patio.",
+      "imageUrl": "https://images.unsplash.com/photo-1676828364800-4ce20dace121?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8b2xkJTIwcGF0aW98ZW58MHx8fHwxNzYwNzg3NTM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "old patio"
+    },
+    {
+      "id": "gallery4-after",
+      "description": "A beautiful outdoor living space.",
+      "imageUrl": "https://images.unsplash.com/photo-1637267286334-745a8bb11003?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvdXRkb29yJTIwbGl2aW5nfGVufDB8fHx8MTc2MDc4NzUzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "outdoor living"
+    },
+    {
+      "id": "avatar1",
+      "description": "Avatar of a happy customer.",
+      "imageUrl": "https://images.unsplash.com/photo-1598625873873-52f9aefd7d9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzYwNzMwODcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "avatar2",
+      "description": "Avatar of a happy customer.",
+      "imageUrl": "https://images.unsplash.com/photo-1583195763986-0231686dcd43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjA3MzA5NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "avatar3",
+      "description": "Avatar of a happy customer.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc2MDczMTI2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person smiling"
+    },
+    {
+      "id": "moodboard1",
+      "description": "AI generated moodboard image 1",
+      "imageUrl": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBsaXZpbmclMjByb29tfGVufDB8fHx8MTc2MDc1MTY2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern living room"
+    },
+    {
+      "id": "moodboard2",
+      "description": "AI generated moodboard image 2",
+      "imageUrl": "https://images.unsplash.com/photo-1627821001591-0d30fae72172?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b29kJTIwYWNjZW50JTIwd2FsbHxlbnwwfHx8fDE3NjA3ODc1MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wood accent wall"
+    },
+    {
+      "id": "moodboard3",
+      "description": "AI generated moodboard image 3",
+      "imageUrl": "https://images.unsplash.com/photo-1703782498522-f9c2b9c1bc25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3p5JTIwYmVkcm9vbXxlbnwwfHx8fDE3NjA3MzE4NTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cozy bedroom"
+    }
+  ]
 }
