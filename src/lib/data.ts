@@ -73,24 +73,6 @@ export const placeholderImages = [
     imageUrl: 'https://picsum.photos/seed/avatar3/100/100',
     imageHint: 'person smiling',
   },
-  {
-    id: 'moodboard1',
-    description: 'AI generated moodboard image 1',
-    imageUrl: 'https://picsum.photos/seed/mb1/400/400',
-    imageHint: 'modern living room',
-  },
-  {
-    id: 'moodboard2',
-    description: 'AI generated moodboard image 2',
-    imageUrl: 'https://picsum.photos/seed/mb2/400/400',
-    imageHint: 'wood accent wall',
-  },
-  {
-    id: 'moodboard3',
-    description: 'AI generated moodboard image 3',
-    imageUrl: 'https://picsum.photos/seed/mb3/400/400',
-    imageHint: 'cozy bedroom',
-  },
 ];
 
 export const packages = [

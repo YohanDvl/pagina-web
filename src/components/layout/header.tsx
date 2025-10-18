@@ -3,12 +3,11 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
-import { Menu, Home, Paintbrush, ImageIcon, MessageSquare, Bot } from 'lucide-react';
+import { Menu, Paintbrush, ImageIcon, MessageSquare } from 'lucide-react';
 import { Logo } from '@/components/logo';
 
 const navLinks = [
   { href: '#servicios', label: 'Servicios', icon: Paintbrush },
-  { href: '#ia-designer', label: 'Diseñador IA', icon: Bot },
   { href: '#galeria', label: 'Galería', icon: ImageIcon },
   { href: '#testimonios', label: 'Testimonios', icon: MessageSquare },
 ];
