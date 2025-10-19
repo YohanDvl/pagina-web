@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "galleryImage": {
+      "title": "Gallery Image",
+      "description": "An image displayed in the project gallery.",
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "The title of the image."
+        },
+        "description": {
+          "type": "string",
+          "description": "A short description of the project."
+        },
+        "beforeImageUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "afterImageUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["title", "afterImageUrl"]
+    },
+    "userProfile": {
+      "title": "User Profile",
+      "description": "Represents a user's profile in the system.",
+      "type": "object",
+      "properties": {
+        "displayName": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        },
+        "photoURL": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    }
+  },
+  "auth": {
+    "providers": ["email"]
+  },
+  "firestore": {
+    "/gallery/{imageId}": {
+      "schema": { "$ref": "#/entities/galleryImage" },
+      "description": "Stores the gallery images."
+    },
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/userProfile" },
+      "description": "Stores user profile information."
+    }
+  }
+}
