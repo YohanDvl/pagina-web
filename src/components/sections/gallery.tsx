@@ -10,6 +10,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog';
+// TODO: Los datos de la galería son estáticos. Conectar a una base de datos (como Firestore) para gestionar los proyectos dinámicamente.
 import { galleryItems } from '@/lib/data';
 
 export default function GallerySection() {
