@@ -5,7 +5,10 @@ export const Logo = (props: React.SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <g transform="translate(0, -5)">
+    {/* Fondo circular */}
+    <circle cx="50" cy="50" r="50" fill="hsl(var(--card))" />
+    
+    <g transform="translate(0, 0)">
       {/* Edificio principal */}
       <path
         d="M38 20 H62 V60 H38 Z"
