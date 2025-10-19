@@ -5,7 +5,7 @@ import Footer from '@/components/layout/footer';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Multy',
+  title: 'Multy Soluciones Moica',
   description: 'Diseño que transforma, calidad que perdura.',
   icons: {
     icon: '/favicon.svg',
