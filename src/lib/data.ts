@@ -46,11 +46,11 @@ export const galleryItems = [
     title: 'Sala de Estar de Concepto Abierto',
     description: 'Renovación de una sala de estar para crear un espacio moderno y luminoso.',
     before: {
-      imageUrl: 'https://i.imgur.com/kdkxOO3.jpeg',
+      imageUrl: '/gallery/proyecto-sala-antes.jpeg',
       imageHint: 'living room before',
     },
     after: {
-      imageUrl: 'https://i.imgur.com/gOQ49yZ.jpeg',
+      imageUrl: '/gallery/proyecto-sala-despues.jpeg',
       imageHint: 'living room after',
     },
   },
