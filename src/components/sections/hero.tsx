@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { placeholderImages } from '@/lib/data';
+import { placeholderImages } from '@/lib/placeholder-images';
 
 export default function HeroSection() {
   const heroImage = placeholderImages.find(p => p.id === 'hero');
@@ -32,7 +32,7 @@ export default function HeroSection() {
               <Link href="#contacto">Agenda una Consulta</Link>
             </Button>
             <Button size="lg" variant="secondary" asChild>
-              <Link href="#servicios">Ver Servicios</Link>
+              <Link href="/servicios">Ver Servicios</Link>
             </Button>
           </div>
         </div>

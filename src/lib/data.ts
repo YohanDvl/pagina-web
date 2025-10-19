@@ -1,79 +1,5 @@
 import { DraftingCompass, Home, Brush } from 'lucide-react';
-
-export const placeholderImages = [
-  {
-    id: 'hero',
-    description: 'A beautifully remodeled modern living room.',
-    imageUrl: 'https://picsum.photos/seed/hero/1920/1080',
-    imageHint: 'modern living room',
-  },
-  {
-    id: 'gallery1-before',
-    description: 'An old, dated kitchen before remodeling.',
-    imageUrl: 'https://i.imgur.com/kdkxOO3.jpeg',
-    imageHint: 'dated apartment living room',
-  },
-  {
-    id: 'gallery1-after',
-    description: 'A modern, bright kitchen after remodeling.',
-    imageUrl: 'https://i.imgur.com/gOQ49yZ.jpeg',
-    imageHint: 'modern apartment living room',
-  },
-  {
-    id: 'gallery2-before',
-    description: 'A cramped bathroom before renovation.',
-    imageUrl: 'https://picsum.photos/seed/apt2b/800/600',
-    imageHint: 'old apartment kitchen',
-  },
-  {
-    id: 'gallery2-after',
-    description: 'A spacious, elegant bathroom after renovation.',
-    imageUrl: 'https://picsum.photos/seed/apt2a/800/600',
-    imageHint: 'remodeled apartment kitchen',
-  },
-  {
-    id: 'gallery3-before',
-    description: 'An unfinished basement space.',
-    imageUrl: 'https://picsum.photos/seed/apt3b/800/600',
-    imageHint: 'dark small bedroom',
-  },
-  {
-    id: 'gallery3-after',
-    description: 'A cozy family room created in the remodeled basement.',
-    imageUrl: 'https://picsum.photos/seed/apt3a/800/600',
-    imageHint: 'bright modern bedroom',
-  },
-    {
-    id: 'gallery4-before',
-    description: 'An old backyard patio.',
-    imageUrl: 'https://picsum.photos/seed/apt4b/800/600',
-    imageHint: 'cluttered balcony',
-  },
-  {
-    id: 'gallery4-after',
-    description: 'A beautiful outdoor living space.',
-    imageUrl: 'https://picsum.photos/seed/apt4a/800/600',
-    imageHint: 'modern apartment balcony',
-  },
-  {
-    id: 'avatar1',
-    description: 'Avatar of a happy customer.',
-    imageUrl: 'https://picsum.photos/seed/avatar1/100/100',
-    imageHint: 'woman smiling',
-  },
-  {
-    id: 'avatar2',
-    description: 'Avatar of a happy customer.',
-    imageUrl: 'https://picsum.photos/seed/avatar2/100/100',
-    imageHint: 'man portrait',
-  },
-  {
-    id: 'avatar3',
-    description: 'Avatar of a happy customer.',
-    imageUrl: 'https://picsum.photos/seed/avatar3/100/100',
-    imageHint: 'person smiling',
-  },
-];
+import { placeholderImages } from '@/lib/placeholder-images';
 
 export const packages = [
   {
@@ -121,11 +47,11 @@ export const galleryItems = [
     description: 'Renovación de una sala de estar para crear un espacio moderno y luminoso.',
     before: {
       imageUrl: 'https://i.imgur.com/kdkxOO3.jpeg',
-      imageHint: placeholderImages.find(p => p.id === 'gallery1-before')?.imageHint || '',
+      imageHint: 'living room before',
     },
     after: {
       imageUrl: 'https://i.imgur.com/gOQ49yZ.jpeg',
-      imageHint: placeholderImages.find(p => p.id === 'gallery1-after')?.imageHint || '',
+      imageHint: 'living room after',
     },
   },
   {
