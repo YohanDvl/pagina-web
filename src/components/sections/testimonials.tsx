@@ -16,7 +16,7 @@ const renderStars = (rating: number) => {
     const stars = [];
     for (let i = 0; i < 5; i++) {
         stars.push(
-            <Star key={i} className={`w-5 h-5 ${i < rating ? 'text-primary fill-primary' : 'text-muted'}`} />
+            <Star key={i} className={`w-5 h-5 ${i < rating ? 'text-accent fill-accent' : 'text-muted'}`} />
         );
     }
     return stars;

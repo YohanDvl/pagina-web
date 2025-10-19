@@ -17,8 +17,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
         <Link href="/" className="mr-6 flex items-center gap-2">
-          <Logo className="w-8 h-8 text-primary" />
-          <span className="hidden font-bold sm:inline-block font-headline">Multy Soluciones Moica</span>
+          <Logo className="w-16 h-16" />
+          <span className="hidden font-bold sm:inline-block font-headline text-lg">Multy Soluciones Moica</span>
         </Link>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
           {navLinks.map((link) => (
@@ -42,7 +42,7 @@ export default function Header() {
               <SheetContent side="right">
                 <div className="flex flex-col gap-6 pt-6">
                   <Link href="/" className="flex items-center gap-2">
-                     <Logo className="w-8 h-8 text-primary" />
+                     <Logo className="w-12 h-12" />
                      <span className="font-bold font-headline">Multy Soluciones Moica</span>
                   </Link>
                   <nav className="grid gap-4">

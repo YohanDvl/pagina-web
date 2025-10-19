@@ -8,10 +8,10 @@ export default function Footer() {
   return (
     <footer className="bg-card text-card-foreground border-t">
       <div className="container grid grid-cols-1 md:grid-cols-3 gap-8 py-12">
-        <div className="flex flex-col gap-4">
-          <Link href="/" className="flex items-center gap-2">
-            <Logo className="w-8 h-8 text-primary" />
-            <span className="font-headline text-lg font-bold">Multy Soluciones Moica</span>
+        <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left">
+          <Link href="/" className="flex flex-col items-center md:items-start gap-2">
+            <Logo className="w-20 h-20" />
+            <span className="font-headline text-xl font-bold">Multy Soluciones Moica</span>
           </Link>
           <p className="text-sm text-muted-foreground">Diseño que transforma, calidad que perdura.</p>
         </div>
