@@ -10,13 +10,13 @@ export const placeholderImages = [
   {
     id: 'gallery1-before',
     description: 'An old, dated kitchen before remodeling.',
-    imageUrl: 'https://picsum.photos/seed/apt1b/800/600',
+    imageUrl: 'https://i.imgur.com/kdkxOO3.jpeg',
     imageHint: 'dated apartment living room',
   },
   {
     id: 'gallery1-after',
     description: 'A modern, bright kitchen after remodeling.',
-    imageUrl: 'https://picsum.photos/seed/apt1a/800/600',
+    imageUrl: 'https://i.imgur.com/gOQ49yZ.jpeg',
     imageHint: 'modern apartment living room',
   },
   {
@@ -120,11 +120,11 @@ export const galleryItems = [
     title: 'Sala de Estar de Concepto Abierto',
     description: 'Renovación de una sala de estar para crear un espacio moderno y luminoso.',
     before: {
-      imageUrl: placeholderImages.find(p => p.id === 'gallery1-before')?.imageUrl || '',
+      imageUrl: 'https://i.imgur.com/kdkxOO3.jpeg',
       imageHint: placeholderImages.find(p => p.id === 'gallery1-before')?.imageHint || '',
     },
     after: {
-      imageUrl: placeholderImages.find(p => p.id === 'gallery1-after')?.imageUrl || '',
+      imageUrl: 'https://i.imgur.com/gOQ49yZ.jpeg',
       imageHint: placeholderImages.find(p => p.id === 'gallery1-after')?.imageHint || '',
     },
   },
