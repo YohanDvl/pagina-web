@@ -10,50 +10,50 @@ export const placeholderImages = [
   {
     id: 'gallery1-before',
     description: 'An old, dated kitchen before remodeling.',
-    imageUrl: 'https://picsum.photos/seed/g1b/800/600',
-    imageHint: 'old kitchen',
+    imageUrl: 'https://picsum.photos/seed/apt1b/800/600',
+    imageHint: 'dated apartment living room',
   },
   {
     id: 'gallery1-after',
     description: 'A modern, bright kitchen after remodeling.',
-    imageUrl: 'https://picsum.photos/seed/g1a/800/600',
-    imageHint: 'modern kitchen',
+    imageUrl: 'https://picsum.photos/seed/apt1a/800/600',
+    imageHint: 'modern apartment living room',
   },
   {
     id: 'gallery2-before',
     description: 'A cramped bathroom before renovation.',
-    imageUrl: 'https://picsum.photos/seed/g2b/800/600',
-    imageHint: 'old bathroom',
+    imageUrl: 'https://picsum.photos/seed/apt2b/800/600',
+    imageHint: 'old apartment kitchen',
   },
   {
     id: 'gallery2-after',
     description: 'A spacious, elegant bathroom after renovation.',
-    imageUrl: 'https://picsum.photos/seed/g2a/800/600',
-    imageHint: 'elegant bathroom',
+    imageUrl: 'https://picsum.photos/seed/apt2a/800/600',
+    imageHint: 'remodeled apartment kitchen',
   },
   {
     id: 'gallery3-before',
     description: 'An unfinished basement space.',
-    imageUrl: 'https://picsum.photos/seed/g3b/800/600',
-    imageHint: 'unfinished basement',
+    imageUrl: 'https://picsum.photos/seed/apt3b/800/600',
+    imageHint: 'dark small bedroom',
   },
   {
     id: 'gallery3-after',
     description: 'A cozy family room created in the remodeled basement.',
-    imageUrl: 'https://picsum.photos/seed/g3a/800/600',
-    imageHint: 'cozy family room',
+    imageUrl: 'https://picsum.photos/seed/apt3a/800/600',
+    imageHint: 'bright modern bedroom',
   },
     {
     id: 'gallery4-before',
     description: 'An old backyard patio.',
-    imageUrl: 'https://picsum.photos/seed/g4b/800/600',
-    imageHint: 'old patio',
+    imageUrl: 'https://picsum.photos/seed/apt4b/800/600',
+    imageHint: 'cluttered balcony',
   },
   {
     id: 'gallery4-after',
     description: 'A beautiful outdoor living space.',
-    imageUrl: 'https://picsum.photos/seed/g4a/800/600',
-    imageHint: 'outdoor living space',
+    imageUrl: 'https://picsum.photos/seed/apt4a/800/600',
+    imageHint: 'modern apartment balcony',
   },
   {
     id: 'avatar1',
@@ -117,8 +117,8 @@ export const packages = [
 export const galleryItems = [
   {
     id: 1,
-    title: 'Cocina Moderna y Funcional',
-    description: 'Transformación completa de una cocina anticuada a un espacio abierto y luminoso.',
+    title: 'Sala de Estar de Concepto Abierto',
+    description: 'Renovación de una sala de estar para crear un espacio moderno y luminoso.',
     before: {
       imageUrl: placeholderImages.find(p => p.id === 'gallery1-before')?.imageUrl || '',
       imageHint: placeholderImages.find(p => p.id === 'gallery1-before')?.imageHint || '',
@@ -130,8 +130,8 @@ export const galleryItems = [
   },
   {
     id: 2,
-    title: 'Baño tipo Spa',
-    description: 'Un baño pequeño y oscuro convertido en un oasis de relajación y elegancia.',
+    title: 'Cocina Gourmet Integrada',
+    description: 'Transformación de una cocina cerrada en un espacio funcional y elegante.',
     before: {
       imageUrl: placeholderImages.find(p => p.id === 'gallery2-before')?.imageUrl || '',
       imageHint: placeholderImages.find(p => p.id === 'gallery2-before')?.imageHint || '',
@@ -143,8 +143,8 @@ export const galleryItems = [
   },
   {
     id: 3,
-    title: 'Sótano Acogedor',
-    description: 'Un sótano sin uso se convierte en una cálida sala de estar familiar.',
+    title: 'Dormitorio Principal tipo Suite',
+    description: 'Un dormitorio oscuro se convierte en un refugio de luz y tranquilidad.',
     before: {
       imageUrl: placeholderImages.find(p => p.id === 'gallery3-before')?.imageUrl || '',
       imageHint: placeholderImages.find(p => p.id === 'gallery3-before')?.imageHint || '',
@@ -156,8 +156,8 @@ export const galleryItems = [
   },
   {
     id: 4,
-    title: 'Terraza Exterior',
-    description: 'Convertimos un patio trasero descuidado en un espacio ideal para el entretenimiento.',
+    title: 'Balcón Urbano Funcional',
+    description: 'Convertimos un balcón desaprovechado en una extensión del área social.',
     before: {
       imageUrl: placeholderImages.find(p => p.id === 'gallery4-before')?.imageUrl || '',
       imageHint: placeholderImages.find(p => p.id === 'gallery4-before')?.imageHint || '',
