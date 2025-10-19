@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:hsl(180 50% 60%)" />
+      <stop offset="100%" style="stop-color:hsl(205 70% 35%)" />
+    </linearGradient>
+  </defs>
+  <path
+    d="M50 10 C 77.6 10, 100 32.4, 100 60 C 100 87.6, 77.6 110, 50 110 C 22.4 110, 0 87.6, 0 60 C 0 32.4, 22.4 10, 50 10 Z"
+    fill="url(#logo-gradient)"
+    transform="rotate(-20 50 50) translate(0, -15)"
+  />
+  <path
+    d="M35 55 C 45 40, 65 40, 75 55 M35 70 C 45 55, 65 55, 75 70"
+    fill="none"
+    stroke="white"
+    strokeWidth="6"
+    strokeLinecap="round"
+    transform="translate(-5, -15)"
+  />
+</svg>

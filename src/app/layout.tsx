@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Multy Soluciones Moica',
   description: 'Diseño que transforma, calidad que perdura.',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/logo.svg',
   },
 };
 
