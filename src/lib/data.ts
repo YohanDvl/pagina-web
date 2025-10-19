@@ -43,54 +43,54 @@ export const packages = [
 export const galleryItems = [
   {
     id: 1,
-    title: 'Sala de Estar de Concepto Abierto',
-    description: 'Renovación de una sala de estar para crear un espacio moderno y luminoso.',
+    title: 'Proyecto 1: Sala de Estar',
+    description: 'Transformación completa de sala de estar.',
     before: {
-      imageUrl: '/gallery/proyecto-sala-antes.jpeg',
+      imageUrl: '/gallery/proyecto-1-antes.jpg',
       imageHint: 'living room before',
     },
     after: {
-      imageUrl: '/gallery/proyecto-sala-despues.jpeg',
+      imageUrl: '/gallery/proyecto-1-despues.jpg',
       imageHint: 'living room after',
     },
   },
   {
     id: 2,
-    title: 'Cocina Gourmet Integrada',
-    description: 'Transformación de una cocina cerrada en un espacio funcional y elegante.',
+    title: 'Proyecto 2: Cocina',
+    description: 'Renovación de cocina para un estilo moderno.',
     before: {
-      imageUrl: placeholderImages.find(p => p.id === 'gallery2-before')?.imageUrl || '',
-      imageHint: placeholderImages.find(p => p.id === 'gallery2-before')?.imageHint || '',
+      imageUrl: '/gallery/proyecto-2-antes.jpg',
+      imageHint: 'kitchen before',
     },
     after: {
-      imageUrl: placeholderImages.find(p => p.id === 'gallery2-after')?.imageUrl || '',
-      imageHint: placeholderImages.find(p => p.id === 'gallery2-after')?.imageHint || '',
+      imageUrl: '/gallery/proyecto-2-despues.jpg',
+      imageHint: 'kitchen after',
     },
   },
   {
     id: 3,
-    title: 'Dormitorio Principal tipo Suite',
-    description: 'Un dormitorio oscuro se convierte en un refugio de luz y tranquilidad.',
+    title: 'Proyecto 3: Dormitorio',
+    description: 'Un dormitorio convertido en un espacio acogedor.',
     before: {
-      imageUrl: placeholderImages.find(p => p.id === 'gallery3-before')?.imageUrl || '',
-      imageHint: placeholderImages.find(p => p.id === 'gallery3-before')?.imageHint || '',
+      imageUrl: '/gallery/proyecto-3-antes.jpg',
+      imageHint: 'bedroom before',
     },
     after: {
-      imageUrl: placeholderImages.find(p => p.id === 'gallery3-after')?.imageUrl || '',
-      imageHint: placeholderImages.find(p => p.id === 'gallery3-after')?.imageHint || '',
+      imageUrl: '/gallery/proyecto-3-despues.jpg',
+      imageHint: 'bedroom after',
     },
   },
   {
     id: 4,
-    title: 'Balcón Urbano Funcional',
-    description: 'Convertimos un balcón desaprovechado en una extensión del área social.',
+    title: 'Proyecto 4: Baño',
+    description: 'Remodelación funcional y elegante de un baño.',
     before: {
-      imageUrl: placeholderImages.find(p => p.id === 'gallery4-before')?.imageUrl || '',
-      imageHint: placeholderImages.find(p => p.id === 'gallery4-before')?.imageHint || '',
+      imageUrl: '/gallery/proyecto-4-antes.jpg',
+      imageHint: 'bathroom before',
     },
     after: {
-      imageUrl: placeholderImages.find(p => p.id === 'gallery4-after')?.imageUrl || '',
-      imageHint: placeholderImages.find(p => p.id === 'gallery4-after')?.imageHint || '',
+      imageUrl: '/gallery/proyecto-4-despues.jpg',
+      imageHint: 'bathroom after',
     },
   },
 ];
