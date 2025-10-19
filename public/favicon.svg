@@ -53,27 +53,4 @@
        {/* Base */}
        <path d="M15 75 L85 75" stroke="hsl(205 70% 35%)" strokeWidth="2" />
     </g>
-
-    {/* Texto */}
-    <text
-      x="50"
-      y="88"
-      fontFamily="sans-serif"
-      fontSize="12"
-      fill="hsl(205 70% 35%)"
-      textAnchor="middle"
-      fontWeight="bold"
-    >
-      MULTY
-    </text>
-    <text
-      x="50"
-      y="98"
-      fontFamily="sans-serif"
-      fontSize="6"
-      fill="hsl(180 50% 60%)"
-      textAnchor="middle"
-    >
-      SOLUCIONES MOICA
-    </text>
   </svg>
