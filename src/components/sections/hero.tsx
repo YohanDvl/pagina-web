@@ -1,24 +1,23 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { placeholderImages } from '@/lib/placeholder-images';
 
 export default function HeroSection() {
-  const heroImage = placeholderImages.find(p => p.id === 'hero');
+  // Usamos una imagen local como fondo del hero.
+  // Asegúrate de tener este archivo: public/gallery/proyecto-1-despues.jpg
+  const heroSrc = '/gallery/proyecto-1-despues.jpg';
+  const heroAlt = 'Proyecto 1 - después';
 
   return (
     <section className="relative w-full h-[75vh] min-h-[480px] flex items-center justify-center text-center text-white">
       <div className="absolute inset-0 bg-black/50 z-10" />
-      {heroImage && (
-        <Image
-          src={heroImage.imageUrl}
-          alt={heroImage.description}
-          fill
-          priority
-          className="object-cover"
-          data-ai-hint={heroImage.imageHint}
-        />
-      )}
+      <Image
+        src={heroSrc}
+        alt={heroAlt}
+        fill
+        priority
+        className="object-cover"
+      />
       <div className="relative z-20 container px-4 md:px-6">
         <div className="max-w-3xl mx-auto space-y-4">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl font-headline">

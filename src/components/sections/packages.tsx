@@ -36,7 +36,7 @@ export default function PackagesSection() {
                   ))}
                 </ul>
                 <Button className="w-full mt-auto" asChild>
-                    <Link href="#contacto">Más Información</Link>
+                    <Link href="/#contacto">Más Información</Link>
                 </Button>
               </CardContent>
             </Card>

@@ -1,5 +1,4 @@
 import { DraftingCompass, Home, Brush } from 'lucide-react';
-import { placeholderImages } from '@/lib/placeholder-images';
 
 export const packages = [
   {
@@ -85,12 +84,38 @@ export const galleryItems = [
     title: 'Proyecto 4: Baño',
     description: 'Remodelación funcional y elegante de un baño.',
     before: {
-      imageUrl: '/gallery/proyecto-4-antes.jpg',
+      imageUrl: '/gallery/proyecto-4-antes.png',
       imageHint: 'bathroom before',
     },
     after: {
-      imageUrl: '/gallery/proyecto-4-despues.jpg',
+      imageUrl: '/gallery/proyecto-4-despues.png',
       imageHint: 'bathroom after',
+    },
+  },
+  {
+    id: 5,
+    title: 'Proyecto 5: Fachada',
+    description: 'Renovación exterior para una fachada moderna y atractiva, mejorando estética y resistencia.',
+    before: {
+      imageUrl: '/gallery/proyecto-5-antes.jpg',
+      imageHint: 'facade before',
+    },
+    after: {
+      imageUrl: '/gallery/proyecto-5-despues.jpg',
+      imageHint: 'facade after',
+    },
+  },
+  {
+    id: 6,
+    title: 'Proyecto 6: Patio Interno',
+    description: 'Transformación de patio interno en un espacio funcional y acogedor para compartir y descansar.',
+    before: {
+      imageUrl: '/gallery/proyecto-6-antes.jpg',
+      imageHint: 'indoor patio before',
+    },
+    after: {
+      imageUrl: '/gallery/proyecto-6-despues.jpg',
+      imageHint: 'indoor patio after',
     },
   },
 ];
@@ -103,8 +128,8 @@ export const testimonials = [
     rating: 5,
     quote: 'El equipo de Moica superó todas mis expectativas. Transformaron mi cocina en el corazón de mi hogar. ¡Profesionales y detallistas!',
     avatar: {
-      imageUrl: placeholderImages.find(p => p.id === 'avatar1')?.imageUrl || '',
-      imageHint: placeholderImages.find(p => p.id === 'avatar1')?.imageHint || '',
+      imageUrl: '/avatars/avatar1.jpg',
+      imageHint: 'avatar 1',
     },
   },
   {
@@ -114,8 +139,8 @@ export const testimonials = [
     rating: 5,
     quote: 'El proceso fue transparente y sin estrés. Su asesoría de diseño fue clave para lograr el estilo que siempre quise. ¡Totalmente recomendados!',
     avatar: {
-      imageUrl: placeholderImages.find(p => p.id === 'avatar2')?.imageUrl || '',
-      imageHint: placeholderImages.find(p => p.id === 'avatar2')?.imageHint || '',
+      imageUrl: '/avatars/avatar2.jpg',
+      imageHint: 'avatar 2',
     },
   },
   {
@@ -125,8 +150,8 @@ export const testimonials = [
     rating: 5,
     quote: '¡Increíble atención al detalle! Opté por el proyecto llave en mano y fue la mejor decisión. Mi apartamento parece otro.',
     avatar: {
-      imageUrl: placeholderImages.find(p => p.id === 'avatar3')?.imageUrl || '',
-      imageHint: placeholderImages.find(p => p.id === 'avatar3')?.imageHint || '',
+      imageUrl: '/avatars/avatar3.jpg',
+      imageHint: 'avatar 3',
     },
   },
    {
@@ -136,8 +161,8 @@ export const testimonials = [
     rating: 4,
     quote: 'Muy contenta con la remodelación de mi baño. Hubo un pequeño retraso, pero la calidad final del trabajo lo compensó con creces.',
     avatar: {
-      imageUrl: 'https://picsum.photos/seed/avatar4/100/100',
-      imageHint: 'woman smiling',
+      imageUrl: '/avatars/avatar4.jpg',
+      imageHint: 'avatar 4',
     },
   },
 ];

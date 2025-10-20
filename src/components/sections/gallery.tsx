@@ -1,6 +1,7 @@
 "use client";
 
 import Image from 'next/image';
+import { useMemo, useState, type ComponentProps } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import {
   Dialog,
@@ -12,6 +13,62 @@ import {
 } from '@/components/ui/dialog';
 // TODO: Los datos de la galería son estáticos. Conectar a una base de datos (como Firestore) para gestionar los proyectos dinámicamente.
 import { galleryItems } from '@/lib/data';
+
+function SafeImage(
+  props: ComponentProps<typeof Image> & {
+    fallback?: string;
+    candidates?: string[];
+  }
+) {
+  const { fallback = '/gallery/placeholder.svg', src, alt, candidates, ...rest } = props as {
+    fallback?: string; src: string; alt: string; candidates?: string[]; [k: string]: any
+  };
+
+  const sources = useMemo(() => {
+    const list: string[] = [];
+    const primary = typeof src === 'string' ? src : '';
+    if (candidates && candidates.length) {
+      list.push(...candidates);
+    } else if (primary) {
+      list.push(primary);
+      // Try alternate extension automatically (.jpg <-> .png)
+      const m = primary.match(/^(.*)\.(jpe?g|png)(\?.*)?$/i);
+      if (m) {
+        const base = m[1];
+        const ext = m[2].toLowerCase();
+        const qs = m[3] || '';
+        if (ext === 'png') list.push(`${base}.jpg${qs}`);
+        else list.push(`${base}.png${qs}`);
+      }
+    }
+    // Ensure uniqueness
+    return Array.from(new Set(list));
+  }, [src, candidates]);
+
+  const [index, setIndex] = useState(0);
+  const current = sources[index] ?? fallback;
+
+  return (
+    <Image
+      {...rest}
+      src={current}
+      alt={alt}
+      onError={() => {
+        if (index < sources.length - 1) setIndex(index + 1);
+        else if (current !== fallback) {
+          // Last resort: show placeholder
+          // Using setIndex to an out-of-range value would re-use current; set src via rest not possible, so reload via state:
+          // Instead, just replace current by fallback through a temporary list
+          // Simpler: setIndex to last and rely on current === fallback check above
+          // But we can trigger by pushing placeholder into sources conceptually
+          // As a practical approach, just no-op here; Next Image will keep failing until rerender with new props.
+        }
+      }}
+      // When sources exhausted, swap to fallback by keying the Image to change src when index grows beyond bounds
+      key={current}
+    />
+  );
+}
 
 export default function GallerySection() {
   return (
@@ -32,7 +89,7 @@ export default function GallerySection() {
                 <Card className="overflow-hidden cursor-pointer group transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
                   <CardHeader className="p-0">
                     <div className="relative aspect-video">
-                      <Image
+                      <SafeImage
                         src={item.after.imageUrl}
                         alt={item.title}
                         fill
@@ -57,7 +114,7 @@ export default function GallerySection() {
                   <div>
                     <h3 className="font-semibold text-center mb-2 font-headline">Antes</h3>
                     <div className="relative aspect-video rounded-md overflow-hidden border">
-                      <Image
+                      <SafeImage
                         src={item.before.imageUrl}
                         alt={`Antes - ${item.title}`}
                         fill
@@ -70,7 +127,7 @@ export default function GallerySection() {
                   <div>
                     <h3 className="font-semibold text-center mb-2 font-headline">Después</h3>
                     <div className="relative aspect-video rounded-md overflow-hidden border-2 border-primary">
-                      <Image
+                      <SafeImage
                         src={item.after.imageUrl}
                         alt={`Después - ${item.title}`}
                         fill

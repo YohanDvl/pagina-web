@@ -7,7 +7,7 @@ import { Menu, Paintbrush, ImageIcon, MessageSquare } from 'lucide-react';
 import { Logo } from '@/components/logo';
 
 const navLinks = [
-  { href: '/servicios', label: 'Servicios', icon: Paintbrush },
+  { href: '/servicios#servicios', label: 'Servicios', icon: Paintbrush },
   { href: '/#galeria', label: 'Galería', icon: ImageIcon },
   { href: '/servicios#testimonios', label: 'Testimonios', icon: MessageSquare },
 ];
